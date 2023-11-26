@@ -52,12 +52,23 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint5.Task5.V7.Lib", "Tyuiu.BelovaEA.Sprint5.Task5.V7.Lib\Tyuiu.BelovaEA.Sprint5.Task5.V7.Lib.csproj", "{79C03C14-F94A-4E21-856E-5632F064ADEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{60327AB0-C93B-4C7D-A0A6-E1E998DCAC82}"
+	ProjectSection(SolutionItems) = preProject
+		Tyuiu.BelovaEA.Sprint5.Task6.V27.Test\DataServiceTest.cs = Tyuiu.BelovaEA.Sprint5.Task6.V27.Test\DataServiceTest.cs
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint5.Task6.V27", "Tyuiu.BelovaEA.Sprint5.Task6.V27\Tyuiu.BelovaEA.Sprint5.Task6.V27.csproj", "{AE506E53-EF28-4B8C-A05F-77F4F87B0F85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint5.Task6.V27.Lib", "Tyuiu.BelovaEA.Sprint5.Task6.V27.Lib\Tyuiu.BelovaEA.Sprint5.Task6.V27.Lib.csproj", "{28E48A6F-5D9B-4AF9-93B2-1BA451466387}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint5.Task6.V27.Test", "Tyuiu.BelovaEA.Sprint5.Task6.V27.Test\Tyuiu.BelovaEA.Sprint5.Task6.V27.Test.csproj", "{16FC3B79-9F24-4960-90F5-228654D4F9BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{23C0973A-AA90-4C9C-A131-6DB75BC0F95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint5.Task7.V17", "Tyuiu.BelovaEA.Sprint5.Task7.V17\Tyuiu.BelovaEA.Sprint5.Task7.V17.csproj", "{EB13C1EF-5CF5-4ED1-BB83-B0E25F5C205A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint5.Task7.V17.Test", "Tyuiu.BelovaEA.Sprint5.Task7.V17.Test\Tyuiu.BelovaEA.Sprint5.Task7.V17.Test.csproj", "{A6505006-A498-49CE-9150-56448013FD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint5.Task7.V17.Lib", "Tyuiu.BelovaEA.Sprint5.Task7.V17.Lib\Tyuiu.BelovaEA.Sprint5.Task7.V17.Lib.csproj", "{13C5FB95-7E47-4B76-9AAD-8C1C9F263110}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +160,18 @@ Global
 		{16FC3B79-9F24-4960-90F5-228654D4F9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16FC3B79-9F24-4960-90F5-228654D4F9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16FC3B79-9F24-4960-90F5-228654D4F9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB13C1EF-5CF5-4ED1-BB83-B0E25F5C205A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB13C1EF-5CF5-4ED1-BB83-B0E25F5C205A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB13C1EF-5CF5-4ED1-BB83-B0E25F5C205A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB13C1EF-5CF5-4ED1-BB83-B0E25F5C205A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6505006-A498-49CE-9150-56448013FD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6505006-A498-49CE-9150-56448013FD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6505006-A498-49CE-9150-56448013FD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6505006-A498-49CE-9150-56448013FD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C5FB95-7E47-4B76-9AAD-8C1C9F263110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C5FB95-7E47-4B76-9AAD-8C1C9F263110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C5FB95-7E47-4B76-9AAD-8C1C9F263110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C5FB95-7E47-4B76-9AAD-8C1C9F263110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +198,9 @@ Global
 		{AE506E53-EF28-4B8C-A05F-77F4F87B0F85} = {60327AB0-C93B-4C7D-A0A6-E1E998DCAC82}
 		{28E48A6F-5D9B-4AF9-93B2-1BA451466387} = {60327AB0-C93B-4C7D-A0A6-E1E998DCAC82}
 		{16FC3B79-9F24-4960-90F5-228654D4F9BD} = {60327AB0-C93B-4C7D-A0A6-E1E998DCAC82}
+		{EB13C1EF-5CF5-4ED1-BB83-B0E25F5C205A} = {23C0973A-AA90-4C9C-A131-6DB75BC0F95B}
+		{A6505006-A498-49CE-9150-56448013FD3B} = {23C0973A-AA90-4C9C-A131-6DB75BC0F95B}
+		{13C5FB95-7E47-4B76-9AAD-8C1C9F263110} = {23C0973A-AA90-4C9C-A131-6DB75BC0F95B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C14EEBCC-07CE-4381-B4BB-64317F77D7A0}
